@@ -3,30 +3,32 @@ body {
    font-family: monospace;
 }
 .container{
- background-color:aqua;  
+ background-color:#e0ffff;  
  width: 100%;
  margin-top: 20px;
+
+ height: 100px;
 }
 
 .header-logo{
-float: left;
+display: inline-block;
 font-size: 25px;
-margin-left: 20px;
-
 }
-
-li {
-   list-style: none;
-   font-size: 15px;
- }
 
 .header-list{
+ display: inline-block;
+ float: right;
+ margin-right: 50px;
+ font-size: 15px;
+}
+
+
+
+.header-list ul {
+   list-style: none;
    float: right;
-   margin-right: 50px;
-   
-}
+ }
 
 
-.able-list{
-   padding: 100px 20px;
-}
+
+
